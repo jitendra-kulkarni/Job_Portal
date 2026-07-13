@@ -16,7 +16,7 @@ class Application(models.Model):
     applicant = models.ForeignKey(
         settings.AUTH_USER_MODEL,
         on_delete=models.CASCADE,
-        related_name="application"
+        related_name="applications"
     )
 
     job = models.ForeignKey(
@@ -47,4 +47,4 @@ class Application(models.Model):
     )
 
     def __str__(self):
-        return F"{self.applicant.username}-{self.job.title}"
+        return f"{self.applicant.username}-{self.job.title}"
