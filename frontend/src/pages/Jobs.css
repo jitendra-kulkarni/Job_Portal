@@ -1,0 +1,38 @@
+.jobs-container{
+    width:80%;
+    margin:auto;
+    padding:20px;
+}
+
+.job-card{
+    color: black;
+    background:white;
+    border-radius:10px;
+    padding:20px;
+    margin:20px 0;
+    box-shadow:0 2px 10px rgba(0,0,0,.1);
+}
+
+.job-card h2{
+    color: black;
+    margin-bottom:10px;
+}
+
+.job-card p{
+    color: black;
+    margin:8px 0;
+}
+
+.job-card button{
+    margin-top:15px;
+    padding:10px 18px;
+    border:none;
+    background:#2563eb;
+    color:white;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+.job-card button:hover{
+    background:#1d4ed8;
+}
