@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import api from "../api/axios";
 import "./Jobs.css";
+import { Link } from "react-router-dom";
 
 function Jobs() {
     const [jobs, setJobs] = useState([]);
@@ -38,7 +39,9 @@ function Jobs() {
 
                     <p>🎯 {job.experience_level}</p>
 
-                    <button>Apply Now</button>
+                    <Link to={`/apply/${job.id}`}>
+                        <button>Apply Now</button>
+                    </Link>
                 </div>
             ))}
         </div>
