@@ -1,0 +1,101 @@
+\documentclass[10.5pt,a4paper]{article}
+
+% ================= PACKAGES =================
+\usepackage[margin=0.65in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{fontawesome5}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+% ================= ATS-FRIENDLY SETTINGS =================
+% Single column, plain text extraction, standard fonts, no tables/graphics.
+\pagestyle{empty}
+\hypersetup{colorlinks=true, urlcolor=blue, linkcolor=blue}
+
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{10pt}{6pt}
+
+\setlist[itemize]{leftmargin=*, itemsep=1pt, topsep=2pt}
+
+\newcommand{\resitem}[1]{\item #1}
+
+% ================= DOCUMENT =================
+\begin{document}
+
+% ---------- HEADER ----------
+\begin{center}
+    {\Huge \textbf{Jitendra Avinash Kulkarni}} \\[6pt]
+    \faPhone\ +91 8087270345 \quad | \quad
+    \faEnvelope\ \href{mailto:jitendrakulkarni01@gmail.com}{jitendrakulkarni01@gmail.com} \quad | \quad
+    \faLinkedin\ \href{https://linkedin.com/in/PLACEHOLDER}{LinkedIn} \quad | \quad
+    \faGithub\ \href{https://github.com/PLACEHOLDER}{GitHub}
+\end{center}
+
+% ---------- PROFESSIONAL SUMMARY ----------
+\section*{Professional Summary}
+Aspiring Python Backend Developer with hands-on experience designing, developing, and deploying web applications using Django, Django REST Framework, and PostgreSQL. Skilled in building RESTful APIs, implementing authentication, managing databases, and deploying to cloud platforms. Passionate about building scalable applications and continuously learning modern software development practices.
+
+% ---------- EDUCATION ----------
+\section*{Education}
+\textbf{Bachelor of Technology (B.Tech) in Computer Engineering} \hfill 2022 -- 2026 \\
+D.N. Patel College of Engineering, Shahada, Maharashtra \\
+CGPA: Result Awaited \hfill \textit{(Expected: Month Year)}
+
+% ---------- TECHNICAL SKILLS ----------
+\section*{Technical Skills}
+\begin{itemize}
+    \resitem{\textbf{Programming Languages:} Python, JavaScript, C, C++}
+    \resitem{\textbf{Frontend:} HTML5, CSS3, Bootstrap}
+    \resitem{\textbf{Backend:} Django, Django REST Framework (DRF), RESTful APIs}
+    \resitem{\textbf{Databases:} PostgreSQL, SQLite, Supabase}
+    \resitem{\textbf{Cloud \& Deployment:} Render, Vercel}
+    \resitem{\textbf{Version Control:} Git, GitHub}
+    \resitem{\textbf{Tools:} VS Code}
+    \resitem{\textbf{Core Concepts:} OOP, CRUD, Authentication, RESTful APIs, MVC}
+\end{itemize}
+
+% ---------- PROJECTS ----------
+\section*{Projects}
+
+\textbf{Expense Tracker Web Application} \hfill \href{https://github.com/PLACEHOLDER}{GitHub} \ | \ \href{https://PLACEHOLDER}{Live Demo} \\
+\textit{Python, Django, PostgreSQL, Bootstrap}
+\begin{itemize}
+    \resitem{Developed a full-stack expense tracking web application using Django with secure user authentication and authorization.}
+    \resitem{Implemented Google OAuth login using Django Allauth alongside the default authentication system.}
+    \resitem{Built complete CRUD functionality for managing expenses and categories, using PostgreSQL in production and SQLite for local development.}
+    \resitem{Designed a responsive user interface with HTML5, CSS3, and Bootstrap for a consistent experience across devices.}
+    \resitem{Configured environment variables using \texttt{.env} files and deployed the application on Render using Gunicorn and WhiteNoise.}
+    \resitem{Integrated Git and GitHub for version control and deployment workflow.}
+\end{itemize}
+
+\textbf{Weather Application} \hfill \href{https://github.com/PLACEHOLDER}{GitHub} \\
+\textit{Python, Django, OpenWeather API}
+\begin{itemize}
+    \resitem{Built a weather application using Django and the OpenWeather API.}
+    \resitem{Fetched real-time weather data including humidity, pressure, temperature, and wind speed.}
+    \resitem{Designed a responsive frontend using HTML and CSS.}
+\end{itemize}
+
+% ---------- CERTIFICATIONS ----------
+\section*{Certifications}
+\begin{itemize}
+    \resitem{Cloud Computing --- NPTEL (IIT Kharagpur) \hfill \textit{Jan -- Apr 2026}}
+    \resitem{Technology Job Simulation --- Deloitte (via Forage) \hfill \textit{Nov 2025}}
+    \resitem{Joy of Computing using Python --- NPTEL (IIT Madras) \hfill \textit{Jan -- Apr 2024}}
+    \resitem{C++ Programming --- Udemy \hfill \textit{Nov 2023}}
+\end{itemize}
+
+% ---------- ACHIEVEMENTS ----------
+\section*{Achievements}
+\begin{itemize}
+    \resitem{Solved 200+ coding problems on \underline{\hspace{3cm}} \textit{(name the platform, e.g. LeetCode / HackerRank / GFG)}}
+    \resitem{Active learner of modern web development technologies and best practices}
+\end{itemize}
+
+% ---------- LANGUAGES ----------
+\section*{Languages}
+English, Hindi, Marathi
+
+\end{document}
